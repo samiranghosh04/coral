@@ -4,17 +4,17 @@ Coral is an experimental, modern meta-framework designed to make fullstack devel
 
 ---
 
-## 🌟 Features
+## Features
 
-- ⚛️ React + [Wouter](https://github.com/molefrog/wouter) for fast, minimal routing
-- 📁 Optional file-based routing system (commented for now)
-- 🌐 Built-in **Server Functions** powered by Vinxi
-- 🚀 Fully SPA by default with support for HTTP & static routes
-- 💡 Zero-config DX — write components, call server logic, ship!
+- React + [Wouter](https://github.com/molefrog/wouter) for fast, minimal routing
+- Optional file-based routing system (commented for now)
+- Built-in **Server Functions** powered by Vinxi
+- Fully SPA by default with support for HTTP & static routes
+- Zero-config DX — write components, call server logic, ship!
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone this repo and install dependencies:
 
@@ -26,7 +26,7 @@ npx vinxi dev
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -46,7 +46,7 @@ npx vinxi dev
 
 ---
 
-## 🔧 Usage
+## Usage
 
 ### Client-Side
 
@@ -78,7 +78,7 @@ createRoot(document.getElementById('root')!).render(
 "use server";
 
 export async function getPosts() {
-  const res = await fetch("https://www.learnwithjason.dev/api/v2/episodes");
+  const res = await fetch("https://exampleapi.com/api");
   if (!res.ok) return { error: true };
   return await res.json();
 }
@@ -113,7 +113,7 @@ export const PostList = () => {
 
 ---
 
-## 📡 Vinxi Config
+## Vinxi Config
 
 The app uses 3 core routes:
 
@@ -125,7 +125,7 @@ Server functions are auto-routed via `@vinxi/server-functions`.
 
 ---
 
-## 🧪 Try it!
+## Try it!
 
 Run the app and visit:
 
@@ -134,7 +134,7 @@ Run the app and visit:
 
 ---
 
-## 🧱 Built With
+## Built With
 
 * [Vinxi](https://vinxi.dev/)
 * [React](https://reactjs.org/)
@@ -144,18 +144,25 @@ Run the app and visit:
 
 ---
 
-## 📄 License
+## License
 
 MIT
 
 ---
 
-## 👤 Author
+## Author
 
 **Samiran Ghosh**
 
 > Coral is a personal experiment in building fullstack frameworks with maximum developer joy and minimum config overhead. Contributions and ideas welcome!
 
+## Features under Consideration
+
+- File based routing based on TanStack Router
+- SSG
+- CLI for DX
+- True SSR
+- Vitest based testing
 
 ## Acknowledgements
 
@@ -164,7 +171,12 @@ I want to take a moment to thank the developers and engineering teams whose work
 - **Evan You** – for shaping the modern frontend landscape and showing what thoughtful design in frameworks looks like.  
 - **Vite** – for redefining speed and simplicity in tooling.  
 - **Vinxi** – for making meta-frameworks fun and surprisingly easy to work with.  
-- **Vike** – for being a constant source of inspiration, especially around routing and SSR.  
+- **Vike** – for being a constant source of inspiration, especially around routing and SSR.
+ **React** – for being the foundation and mindset behind Coral’s UI layer.  
+- **Solid** – for pushing the boundaries of reactivity and performance in JavaScript frameworks.  
+- **Svelte** – for showing us what compiler-first thinking can do to simplify UI development.  
+- **TanStack** – for delivering brilliant, headless solutions across routing, tables, forms, and more — and for inspiring how I think about framework primitives.
+- **Brenley Dueck** – for building tools and ideas that feel both practical and forward-looking.
 - **Dev Agarwal** – for breaking down complex concepts in ways that actually stick.  
 - **CodeTV** *(formerly Learn with Jason)* – for being that friendly guide into the world of fullstack development and beyond.  
 - **Nitro** – for showing how powerful server architecture can still feel lightweight.
