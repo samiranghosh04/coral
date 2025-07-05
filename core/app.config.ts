@@ -1,5 +1,5 @@
 //app.config.ts
-import {createApp, resolve} from "vinxi";
+import { createApp } from "vinxi";
 import reactPlugin from '@vitejs/plugin-react';
 import { serverFunctions } from "@vinxi/server-functions/plugin";
 import { tanstackRouter } from '@tanstack/router-plugin/vite'

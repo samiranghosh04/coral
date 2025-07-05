@@ -1,5 +1,5 @@
 //src/components/PostList.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getPosts } from "../getPosts";
 
 export const PostList = () => {

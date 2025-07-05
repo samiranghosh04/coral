@@ -1,7 +1,5 @@
 //src/api.ts
 import { eventHandler } from "vinxi/http";
-// import dotenv from "dotenv";
-// dotenv.config();
 
 export default eventHandler(async (event) =>{
     //console.log(event);
