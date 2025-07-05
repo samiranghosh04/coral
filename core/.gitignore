@@ -1,3 +1,5 @@
 .env
 node_modules
-public/test.jpg
+test.jpg
+.tanstack
+routeTree.gen.ts
