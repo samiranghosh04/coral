@@ -2,7 +2,33 @@
 
 **Coral** is an experimental, modern meta-framework designed to make fullstack development as smooth as possible. Featuring routing, server functions, full SPA mode, and an ergonomic React + TanStack Router setup — Coral focuses on a lightweight yet powerful developer experience.
 
+For more in depth information, check out our [docs](https://coral-docs.netlify.app/).
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-experimental-orange.svg" alt="Experimental" />
+  <img src="https://img.shields.io/badge/warning-breaking%20changes-critical.svg" alt="Breaking Changes" />
+</p>
+
 ---
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+  - [Client-Side Routing](#client-side-routing)
+  - [Server Functions](#server-functions)
+  - [API Routes](#api-routes)
+  - [Components](#components)
+- [Vinxi Config](#vinxi-config)
+- [Try it](#try-it)
+- [Built With](#built-with)
+- [License](#license)
+- [Author](#author)
+- [Features under Consideration](#features-under-consideration)
+- [Acknowledgements](#acknowledgements)
+- [Contributing](#contributing)
 
 ## Features
 
@@ -205,7 +231,7 @@ Run the app and visit:
 
 ## License
 
-MIT
+[MIT License](LICENSE)
 
 ---
 
@@ -245,3 +271,8 @@ I want to take a moment to thank the developers and engineering teams whose work
 
 And to everyone I may have forgotten — whether you wrote a tool, shared a blog post, answered a question, or just put your ideas out into the world:
 thank you. You've made building Coral possible, and the process a lot more joyful.
+
+
+## Contributing
+
+We welcome contributions of any kind! To get started, please check out the [Contributing Guidelines](./CONTRIBUTING.md) and our [Code of Conduct](./CODE_OF_CONDUCT.md).
