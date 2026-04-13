@@ -6,6 +6,8 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
+import CodeBlock from '@theme/CodeBlock';
+
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -24,6 +26,11 @@ function HomepageHeader() {
             Docs
           </Link>
         </div>
+        <div style={{ marginTop: '3rem', maxWidth: '600px', marginInline: 'auto' }}>
+  <CodeBlock language="bash">
+    npx create-coral-app my-app csr-tanstack
+  </CodeBlock>
+</div>
       </div>
     </header>
   );

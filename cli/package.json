@@ -1,0 +1,32 @@
+{
+  "name": "create-coral-app",
+  "version": "0.0.1-alpha-1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+  "create-coral-app": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+  "node": ">=18"
+  },
+  "keywords": [],
+  "author": "samiranghosh04",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "rolldown": "^1.0.0-rc.15",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "degit": "^2.8.4",
+    "kleur": "^4.1.5",
+    "minimist": "^1.2.8"
+  }
+}
