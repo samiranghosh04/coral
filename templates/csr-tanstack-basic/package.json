@@ -1,0 +1,33 @@
+{
+  "name": "core",
+  "version": "0.0.1-alpha-0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vinxi start",
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "serve": "vinxi serve",
+    "run": "vinxi run"
+  },
+  "keywords": [],
+  "author": "samiranghosh04",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tanstack/react-router": "^1.124.2",
+    "@tanstack/react-router-devtools": "^1.124.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vinxi/react": "^0.2.5",
+    "@vinxi/server-functions": "^0.5.1",
+    "@vitejs/plugin-react": "^4.6.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vinxi": "^0.5.8"
+  },
+  "devDependencies": {
+    "@tanstack/router-plugin": "^1.124.2"
+  }
+}
